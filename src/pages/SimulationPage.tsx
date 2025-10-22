@@ -122,7 +122,7 @@ const SimulationPage = () => {
   };
 
   const simulateStep = async (stepIndex: number) => {
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    await new Promise((resolve) => setTimeout(resolve, 4000));
 
     const step = steps[stepIndex];
     setSteps((prevSteps) => {
